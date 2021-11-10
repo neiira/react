@@ -1,0 +1,155 @@
+.nav-container {
+  height: 70px;
+  margin-top: 58.62px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* LaslesVPN description section */
+.ps-column__h1 {
+  width: 555px;
+  height: 140px;
+  left: 150px;
+  top: 206.77px;
+  font-weight: 500;
+  font-size: 50px;
+  color: #0b132a, 100%;
+}
+
+.ps-column__p {
+  width: 555px;
+  height: 60px;
+  left: 150px;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.ps-column__button {
+  font-size: 20px;
+  width: 250px;
+  height: 60px;
+  left: 150px;
+  margin-top: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+  background-color: #f53838;
+  border: none;
+  color: white;
+}
+
+.packages-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.packages-col {
+  width: 330px;
+  height: 760px;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.select-btn {
+  height: 50px;
+  width: 177.88px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid #f53855;
+  border-radius: 50px;
+  background: transparent;
+  margin-left: 71.06px;
+}
+
+.pricing button:hover {
+  background-color: orangered;
+  color: white;
+  box-shadow: 0px 30px 30px -20px #f53855;
+}
+
+/*testimonial*/
+.testimonials-carousel-container {
+  width: 100vw;
+  display: flex;
+}
+.testimonials-carousel {
+  width: 400px;
+  height: 230px;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 90px;
+  float: left;
+}
+
+.testimonials-direction__button-left {
+  height: 60px;
+  width: 60px;
+  border: 2px solid;
+  border-color: #f53838;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.testimonials-direction__button-right {
+  height: 60px;
+  width: 60px;
+  background-color: #f53838;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* subscription */
+.subscription__div {
+  margin-top: 65px;
+  height: 223px;
+  width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 58px 70px 58px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 7px 30px 65px -20px #dddddd;
+}
+
+.subscription {
+  z-index: 10;
+  position: relative;
+}
+
+/* footer section */
+.footer {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 563.2px;
+  margin-top: -100px;
+}
+.footer-col1__logobox {
+  padding-bottom: 70px;
+  width: 104px;
+  height: 24px;
+}
+.footer-col1__descripton {
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.company-description {
+  color: #4f5665;
+  font-weight: 400;
+}

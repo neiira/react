@@ -1,0 +1,482 @@
+/* nav bar */
+.row__nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-items li {
+  list-style: none;
+  margin-left: 40px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.nav-items li:first-child {
+  margin-left: 0px;
+}
+
+.nav-bar__auth {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar__auth li button:hover {
+  background-color: #f53855;
+  color: white;
+}
+
+.nav-bar__auth li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.nav-bar__auth li:first-child {
+  margin-left: 0px;
+}
+
+.border-sign {
+  height: 45px;
+  width: 150px;
+  background-color: transparent;
+}
+
+.nav-bar__border {
+  border: 1px solid #f53855;
+  border-radius: 50px;
+}
+.nav-items__decoration {
+  text-decoration: none;
+  color: #4f5665;
+}
+
+/* LaslesVPN description section */
+.paragraph-section {
+  background-color: linear-gradient(180deg, #f8f8f8 -45.04%, rgba(248, 248, 248, 0) 88.56%);
+}
+.paragraph-section__wrapper {
+  padding-top: 56px;
+}
+
+.paragraph-section__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paragraph-section__column button:hover {
+  box-shadow: 0px 30px 30px -20px #f53855;
+  color: green;
+}
+
+/* service number section */
+.third-section {
+  margin-top: 102.49px;
+  padding-bottom: 50px;
+}
+
+.third-section__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 114opx;
+  height: 200px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0px 20px 20px 10px #bbb8b8;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.third-section__column {
+  display: flex;
+  align-items: center;
+}
+
+.img-box {
+  width: 55px;
+  height: 55px;
+  margin-right: 40px;
+}
+
+.icon-group {
+  width: 53px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-user {
+  left: 241px;
+  top: 737.05px;
+}
+
+.img-location {
+  left: 628.5px;
+  top: 737.05px;
+}
+
+.img-server {
+  left: 1037px;
+  top: 737.05px;
+}
+
+.icon-num {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* feature section */
+.feature {
+  margin: 0px;
+  background: linear-gradient(#fbfbfb, #ffffff);
+}
+
+.feature-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feature-img {
+  width: 508.12px;
+  height: 414.71px;
+  left: 184.52px;
+  margin-top: 98.83px;
+  margin-bottom: 131.19px;
+}
+
+.feature-text {
+  width: 383.41px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.feature-description {
+  width: 427.88px;
+  height: 60px;
+  left: 862.12px;
+  top: 1134.55px;
+  font-size: 16px;
+  color: #4f5665;
+}
+.feature-list {
+  width: 213px;
+  height: 165px;
+  color: #4f5665;
+}
+.groupimg-1120 {
+  vertical-align: middle;
+}
+.feature-list__items li {
+  font-size: 14px;
+  list-style: none;
+  margin: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+/* pricing section */
+.plan {
+  margin: 0px auto;
+  background: linear-gradient(#fbfbfb, #ffffff);
+}
+
+.plan-heading {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px;
+  text-align: center;
+  color: #0b132a;
+  padding-top: 80.27px;
+}
+
+.plan-paragaraph {
+  padding-top: 20px;
+  font-size: 16px;
+  text-align: center;
+  color: #4f5665;
+}
+
+.packages-col:hover {
+  border: 2px solid orangered;
+}
+
+.packages-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.packages-col__imgbox {
+  padding: 79.63px 92.55px 30px 92.55px;
+}
+
+.package-img {
+  width: 144.9px;
+  height: 165.37px;
+}
+
+.packages-col__head {
+  text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.plan-list {
+  padding-top: 30px;
+  padding-left: 69.87px;
+}
+
+.plan_items li {
+  list-style: none;
+  align-items: center;
+  margin: 15.17px;
+}
+
+.groupimg-1223 {
+  vertical-align: middle;
+}
+
+.plan-title {
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  color: #0b132a;
+  padding-bottom: 20px;
+}
+
+.plan-title__span {
+  color: #4f5665;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.pricing {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+}
+
+/* global section */
+.global-description {
+  padding: 150px;
+  text-align: center;
+  padding-bottom: 155.81px;
+}
+
+.global-description__h1 {
+  font-size: 35px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  color: #0b132a;
+}
+
+.global-description__p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4f5665;
+}
+
+.huge-global-img {
+  width: 1060px;
+  height: 537.77px;
+}
+
+.enterainment-app-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 6.25px;
+  width: 1135.64px;
+  height: 208.32px;
+}
+
+/*testimonial*/
+.testimonial {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.testimonial-head__h1 {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  color: #0b132a;
+}
+
+.testimonial-head__p {
+  font-size: 16px;
+  font-weight: 400px;
+  text-align: center;
+  color: #4f5665;
+  padding-top: 20px;
+}
+
+.testimonials-carousel:not(:first-child) {
+  margin-left: 50px;
+}
+
+.testimonials-carousel_first {
+  border-color: #f53838;
+}
+.testimonials-carousel_second {
+  border-color: #dddddd;
+}
+
+.testimonials-carousel_active {
+  box-shadow: 0px 30px 30px -20px #dddddd;
+}
+
+.testimonials-person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.person-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.person-info {
+  margin-left: 20px;
+  flex-grow: 1;
+}
+.person-info__name {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.person-info__address {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #4f5665;
+}
+
+.testimonials-car:not(:first-child) {
+  margin-left: 50px;
+}
+
+.testimonials-carousel__person-rating {
+  margin-bottom: 0;
+}
+.testimonials-carousel__star {
+  margin-left: 10px;
+}
+
+.testimonials-carousel__description {
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 0px;
+}
+
+.testimonials-slider {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonials-slider__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials-direction-button_white {
+  fill: #ffffff;
+}
+
+/*subscription*/
+.subscription-info-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  max-width: 371.61px;
+}
+.subscription-button {
+  color: white;
+  background-color: #f53838;
+  height: 60px;
+  width: 250px;
+  border: 2px solid #f53838;
+  border-radius: 10px;
+}
+
+.subscription__div button:hover {
+  box-shadow: 0px 30px 30px -20px #f53855;
+  color: green;
+}
+
+/*footer*/
+.footer-row {
+  padding-top: 150px;
+  display: flex;
+}
+.footer-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-right: 230px;
+}
+.social-media-contact img {
+  padding: 0px auto 30px 0px;
+}
+.social-media-contact img:first-child {
+  padding-left: 0px;
+}
+
+.copyright {
+  color: #afb5c0;
+  font-weight: 400;
+}
+
+.footer-col2__row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.footer-col2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-points-title {
+  color: #0b132a;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.points-list li {
+  list-style: none;
+  color: #4f5665;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.footer-col2__col2 {
+  padding-left: 126px;
+}
+
+.footer-col2__col3 {
+  padding-left: 126px;
+}
+
+.footer-content-itemlist {
+  text-decoration: none;
+  color: #4f5665;
+}
